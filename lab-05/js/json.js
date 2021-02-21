@@ -29,6 +29,7 @@ const init = () => {
         }
     ]; 
 
+    // Loop through and display just the ID and email. 
     students.forEach(current => {
         let p = document.createElement('p'); 
         p.innerHTML = `<p>ID: ${current.id}. Email: ${current.email}</p>`; 
